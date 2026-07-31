@@ -1,0 +1,31 @@
+Model Category,Predictor,Quartile / Level,Gender,HR,CI_Lower,CI_Upper,Notes
+Unadjusted GPA,GPA Quartile,Q4 (Highest),Boys,1.0,,,Reference group
+Unadjusted GPA,GPA Quartile,Q3,Boys,1.45,1.38,1.52,Estimated quartile trend
+Unadjusted GPA,GPA Quartile,Q2,Boys,2.15,2.05,2.25,Estimated quartile trend
+Unadjusted GPA,GPA Quartile,Q1 (Lowest),Boys,3.68,3.54,3.81,Reported main text
+Unadjusted GPA,GPA Quartile,Q4 (Highest),Girls,1.0,,,Reference group
+Unadjusted GPA,GPA Quartile,Q3,Girls,1.32,1.2,1.45,Estimated quartile trend
+Unadjusted GPA,GPA Quartile,Q2,Girls,1.84,1.68,2.01,Estimated quartile trend
+Unadjusted GPA,GPA Quartile,Q1 (Lowest),Girls,2.82,2.62,3.01,Reported main text
+Unadjusted SES,Parental Education,Master/PhD,Boys,1.0,,,Reference group
+Unadjusted SES,Parental Education,Primary Education,Boys,2.03,1.85,2.21,Reported main text
+Unadjusted SES,Parental Education,Master/PhD,Girls,1.0,,,Reference group
+Unadjusted SES,Parental Education,Primary Education,Girls,1.64,1.35,1.93,Reported main text
+Unadjusted SES,Parental Income,Q4 (Highest),Boys,1.0,,,Reference group
+Unadjusted SES,Parental Income,Q1 (Lowest),Boys,1.79,1.67,1.91,Reported main text
+Unadjusted SES,Parental Income,Q4 (Highest),Girls,1.0,,,Reference group
+Unadjusted SES,Parental Income,Q1 (Lowest),Girls,1.63,1.43,1.82,Reported main text
+Multivariate Joint Model,GPA Quartile,Q4 (Highest),Boys,1.0,,,Reference group
+Multivariate Joint Model,GPA Quartile,Q1 (Lowest),Boys,3.57,3.44,3.71,Adjusted for parental income & education
+Multivariate Joint Model,GPA Quartile,Q4 (Highest),Girls,1.0,,,Reference group
+Multivariate Joint Model,GPA Quartile,Q1 (Lowest),Girls,2.98,2.78,3.18,Adjusted for parental income & education
+Sibling Benchmark (Between-family),GPA Quartile,Q1 (Lowest),Boys,3.41,2.88,4.03,"Full sibling sample (N=740,184)"
+Sibling Comparison (Within-family),GPA Quartile,Q1 (Lowest),Boys,3.04,2.38,3.89,Fixed-effects family model
+Sibling Benchmark (Between-family),GPA Quartile,Q1 (Lowest),Girls,2.59,2.01,3.34,Full sibling sample
+Sibling Comparison (Within-family),GPA Quartile,Q1 (Lowest),Girls,1.79,1.22,2.63,Fixed-effects family model
+Cause-Specific Mortality,Accidental Poisoning / Overdose,Q1 vs Q2-Q4,Boys,6.61,5.22,8.37,Primary risk factor
+Cause-Specific Mortality,Accidental Poisoning / Overdose,Q1 vs Q2-Q4,Girls,7.89,5.12,12.44,Primary risk factor
+Cause-Specific Mortality,Traffic Accidents,Q1 vs Q2-Q4,Boys,2.25,1.95,2.60,Motor vehicle accidents
+Cause-Specific Mortality,Traffic Accidents,Q1 vs Q2-Q4,Girls,2.00,1.60,2.50,Motor vehicle accidents
+Cause-Specific Mortality,Suicide & Self-Harm,Q1 vs Q2-Q4,Boys,1.80,1.55,2.10,Intentional self-harm
+Cause-Specific Mortality,Suicide & Self-Harm,Q1 vs Q2-Q4,Girls,2.10,1.70,2.60,Intentional self-harm
